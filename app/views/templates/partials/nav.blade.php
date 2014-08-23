@@ -35,7 +35,7 @@
                     <a href="#">Hire</a>
                 </li>
                 <li>
-                    <a href="#">Benefits</a>
+                    <a href="{{ route('benefits') }}">Benefits</a>
                 </li>
                 <li>
                     <a href="#">About Us</a>

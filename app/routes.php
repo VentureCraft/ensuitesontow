@@ -13,3 +13,6 @@
 
 Route::get('/', array('as' => 'site.index', 'uses' => 'HomeController@showWelcome'));
 Route::get('contact-us', array('as' => 'contact', 'uses' => 'ContactController@index'));
+
+
+Route::get('benefits', array('as' => 'benefits', 'uses' => 'ContentController@benefits'));
