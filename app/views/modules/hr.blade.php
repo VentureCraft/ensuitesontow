@@ -1,0 +1,7 @@
+<div class="container">
+
+    <div class="row">
+        <hr class="tall"/>
+    </div>
+
+</div>

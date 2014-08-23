@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', array('as' => 'site.index', 'uses' => 'HomeController@showWelcome'));
+Route::get('contact-us', array('as' => 'contact', 'uses' => 'ContactController@index'));

@@ -1,0 +1,31 @@
+/* Add here all your CSS customizations */
+
+#header {
+    background: #FFF;
+}
+.home-intro {
+    margin-bottom: 30px;
+}
+
+.logo img {
+    vertical-align: top;
+    margin-top: -8px;
+}
+.sticky-menu-active .logo img {
+    margin-top: 3px;
+}
+
+.slider-container .main-label.smaller-big-label {
+    font-size: 46px;
+}
+
+.awards {
+    text-align: center;
+}
+.awards .row div {
+    padding: 5px;
+}
+.awards img {
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
