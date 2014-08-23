@@ -80,13 +80,6 @@
                 </li>
             </ul>
 
-            <hr>
-
-            <h4>Business <strong>Hours</strong></h4>
-            <ul class="list-unstyled">
-                <li><i class="icon icon-time"></i> Monday - Friday 9am to 5pm</li>
-            </ul>
-
         </div>
 
     </div>

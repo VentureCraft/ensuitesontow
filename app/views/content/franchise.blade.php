@@ -19,7 +19,7 @@
     <div class="row">
         <div class="col-md-9">
 
-            <h2>Looking for a home based business opportunity that</h2>
+            <h2>Looking for a home based business opportunity that:</h2>
             <ul>
                 <li>is affordable to own and offers excellent returns?</li>
                 <li>can be tailored to suite your individual situation?</li>
@@ -40,7 +40,7 @@
                 etc. etc.</p>
 
             <h4>The portable ensuite hire <strong>Australia prefers</strong></h4>
-            <p>Luxury mobile bathroom franchises that offer terrific returns</p>
+            <p>Luxury mobile bathroom franchises that offer terrific returns.</p>
             <p>With&nbsp;a <strong>starting price</strong> of only <strong>$32,000.00</strong> plus GST,&nbsp;this small
             business franchise opportunity includes everything necessary to commence operation of&nbsp;your new business
             in one complete package. This includes&nbsp;licensing, training, operation manuals and procedure guides&nbsp;and
@@ -49,7 +49,7 @@
 
             <p>As the saying goes:</p>
 
-            <p class="text-center alternative-font">"Be In Business For Yourself, Not By Yourself"</p>
+            <p class="text-center alternative-font">"Be In Business <strong><u>For</u></strong> Yourself, Not <strong><u>By</u></strong> Yourself"</p>
 
             <p>Simply plug in to our portable bathroom hire franchise systems and hit the ground running.</p>
 

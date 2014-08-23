@@ -1,5 +1,4 @@
-<div class="awards">
-    <h4 style="text-align: left">Past <strong>Accolades</strong></h4>
+<div class="awards side">
 
     <div class="row" style="padding: 0 10px">
         <div class="col-sm-4">

@@ -204,7 +204,7 @@
 
             <hr style="clear: both">
 
-            <h3>Environmental</h3>
+            <h3 class="environmental"><i class="icon icon-leaf"></i> Environmental</h3>
             <p>The quality features of our bathrooms ensure minimal environmental impact. There’s no need for chemicals, there are no emissions and the option to divert shower water to gardens and lawns provides additional water saving benefits!</p>
 
         </div>
