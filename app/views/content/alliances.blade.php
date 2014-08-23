@@ -111,8 +111,6 @@
             @include('modules.search')
             <hr/>
             @include('modules.franchise-enquiries')
-            <hr/>
-            @include('modules.accolades')
         </div>
     </div>
 </div>

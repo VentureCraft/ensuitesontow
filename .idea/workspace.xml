@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="accolades.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/modules/accolades.blade.php">
+      <file leaf-file-name="alliances.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/content/alliances.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+            <state line="113" column="14" selection-start="6845" selection-end="6845" vertical-scroll-proportion="0.7592357" vertical-offset="2455" max-vertical-offset="3294">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,6 @@
         <option value="$PROJECT_DIR$/app/views/modules/testimonials.blade.php" />
         <option value="$PROJECT_DIR$/app/views/modules/search.blade.php" />
         <option value="$PROJECT_DIR$/app/views/modules/hr-side.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/content/alliances.blade.php" />
         <option value="$PROJECT_DIR$/app/views/content/testimonials.blade.php" />
         <option value="$PROJECT_DIR$/app/views/content/benefits.blade.php" />
         <option value="$PROJECT_DIR$/app/views/templates/partials/header-bar.blade.php" />
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/app/views/content/features.blade.php" />
         <option value="$PROJECT_DIR$/app/views/templates/partials/nav.blade.php" />
         <option value="$PROJECT_DIR$/app/views/modules/accolades.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/content/alliances.blade.php" />
       </list>
     </option>
   </component>
@@ -386,7 +386,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -521,13 +521,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/modules/home-accolades.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="6" selection-start="461" selection-end="461" vertical-scroll-proportion="0.47368422" vertical-offset="0" max-vertical-offset="798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/content/alliances.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="6849" selection-end="6849" vertical-scroll-proportion="0.7936306" vertical-offset="2455" max-vertical-offset="3348">
           <folding />
         </state>
       </provider>
@@ -791,7 +784,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/modules/accolades.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+        <state line="13" column="6" selection-start="455" selection-end="455" vertical-scroll-proportion="0.43984962" vertical-offset="0" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/content/alliances.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="14" selection-start="6845" selection-end="6845" vertical-scroll-proportion="0.7592357" vertical-offset="2455" max-vertical-offset="3294">
           <folding />
         </state>
       </provider>
