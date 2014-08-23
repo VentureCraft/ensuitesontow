@@ -8,7 +8,7 @@
                     </a>
                 </li>
                 <li class="dropdown {{ activeState(['features']) }}">
-                    <a class="dropdown-toggle" href="#">
+                    <a class="dropdown-toggle" href="{{ route('features') }}">
                         Ensuites
                         <i class="icon icon-angle-down"></i>
                     </a>
@@ -21,18 +21,18 @@
                         </li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" href="#">
+                <li class="dropdown {{ activeState(['hireservices', 'builders', 'events', 'installation', 'showers', 'toilets', 'wedding']) }}">
+                    <a class="dropdown-toggle" href="{{ route('hireservice') }}">
                         Services
                         <i class="icon icon-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Builders and Renovators</a></li>
-                        <li><a href="#">Event Organisers</a></li>
-                        <li><a href="#">Installation</a></li>
-                        <li><a href="#">Showers</a></li>
-                        <li><a href="#">Toilets</a></li>
-                        <li><a href="#">Outdoor Weddings</a></li>
+                        <li class="{{ activeState('builders') }}"><a href="{{ route('builders') }}">Builders and Renovators</a></li>
+                        <li class="{{ activeState('events') }}"><a href="{{ route('events') }}">Event Organisers</a></li>
+                        <li class="{{ activeState('installation') }}"><a href="{{ route('installation') }}">Installation</a></li>
+                        <li class="{{ activeState('showers') }}"><a href="{{ route('showers') }}">Showers</a></li>
+                        <li class="{{ activeState('toilets') }}"><a href="{{ route('toilets') }}">Toilets</a></li>
+                        <li class="{{ activeState('weddings') }}"><a href="{{ route('weddings') }}">Outdoor Weddings</a></li>
                     </ul>
                 </li>
                 <li>

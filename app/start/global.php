@@ -67,6 +67,15 @@ App::down(function()
 	return Response::make("Be right back!", 503);
 });
 
+App::error(function (Exception $exception) {
+    if (get_class($exception) === 'BadMethodCallException') {
+        return Response::view('errors.404', array(), 404);
+    }
+    if(App::environment('production')) {
+        return Response::view('errors.500', array('exception' => $exception), 500);
+    }
+});
+
 App::missing(function ($exception) {
     return Response::view('errors.404', array(), 404);
 });

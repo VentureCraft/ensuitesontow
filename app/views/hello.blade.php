@@ -8,7 +8,7 @@
 
 @include('modules.perfect-for')
 
-@include('modules.bubbles')
+@include('modules.bubbles', array('show_large' => true))
 
 @include('modules.hr')
 

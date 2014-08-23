@@ -1,9 +1,11 @@
-<div class="home-concept">
+<div class="home-concept {{ $show_large?'home':'internal' }}">
     <div class="container">
 
         <div class="row center">
+            @if($show_large)
             <span class="sun"></span>
             <span class="cloud"></span>
+            @endif
 
             <div class="col-md-2 col-md-offset-1">
                 <div class="process-image" data-appear-animation="bounceIn">
@@ -23,6 +25,7 @@
                     <strong>Connect water & sewage</strong>
                 </div>
             </div>
+            @if($show_large)
             <div class="col-md-4 col-md-offset-1">
                 <div class="project-image">
                     <div id="fcSlideshow" class="fc-slideshow">
@@ -35,6 +38,7 @@
                     <strong class="our-work">Ready for you to use</strong>
                 </div>
             </div>
+            @endif
         </div>
 
     </div>

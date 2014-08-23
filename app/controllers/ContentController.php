@@ -2,9 +2,9 @@
 class ContentController extends BaseController
 {
 
-    public function benefits()
+    public function aboutUs()
     {
-        return View::make('content.benefits');
+        return View::make('content.about-us');
     }
 
     public function alliances()
@@ -12,14 +12,19 @@ class ContentController extends BaseController
         return View::make('content.alliances');
     }
 
-    public function aboutUs()
+    public function benefits()
     {
-        return View::make('content.about-us');
+        return View::make('content.benefits');
     }
 
-    public function franchise()
+    public function builders()
     {
-        return View::make('content.franchise');
+        return View::make('content.builders');
+    }
+
+    public function events()
+    {
+        return View::make('content.events');
     }
 
     public function features()
@@ -27,9 +32,29 @@ class ContentController extends BaseController
         return View::make('content.features');
     }
 
+    public function franchise()
+    {
+        return View::make('content.franchise');
+    }
+
     public function gallery()
     {
         return View::make('content.gallery');
+    }
+
+    public function hireService()
+    {
+        return View::make('content.hire-service');
+    }
+
+    public function installation()
+    {
+        return View::make('content.installation');
+    }
+
+    public function outdoorWeddings()
+    {
+        return View::make('content.outdoor-weddings');
     }
 
     public function privacy()
@@ -37,8 +62,23 @@ class ContentController extends BaseController
         return View::make('content.privacy');
     }
 
+    public function showers()
+    {
+        return View::make('content.showers');
+    }
+
     public function testimonials()
     {
         return View::make('content.testimonials');
+    }
+
+    public function toilets()
+    {
+        return View::make('content.toilets');
+    }
+
+    public function weddings()
+    {
+        return View::make('content.weddings');
     }
 }

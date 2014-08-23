@@ -44,3 +44,10 @@ ul.team-list {
 .environmental {
     color: #0da882;
 }
+.internal.home-concept {
+    background-size: contain;
+}
+.internal.home-concept .process-image {
+    margin-top: 35px;
+    margin-bottom: 90px;
+}
