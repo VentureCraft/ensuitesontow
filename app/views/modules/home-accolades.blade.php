@@ -1,7 +1,7 @@
 <div class="awards">
-    <h4 style="text-align: left">Past <strong>Accolades</strong></h4>
+    <h2>Past <strong>Accolades</strong></h2>
 
-    <div class="row" style="padding: 0 10px">
+    <div class="row">
         <div class="col-sm-4">
             <img src="{{ asset('assets/img/awards/hia_2005.png') }}" />
         </div>

@@ -29,8 +29,10 @@
             <p><a href="#">CLICK HERE</a> to contact your local operator.</p>
         </div>
         <div class="col-md-3">
-            @include('modules.franchise-enquiries')
             @include('modules.search')
+            <hr/>
+            @include('modules.franchise-enquiries')
+            <hr/>
             @include('modules.accolades')
         </div>
     </div>

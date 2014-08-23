@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    @include('modules.accolades')
+                    @include('modules.home-accolades')
                 </div>
                 <div class="col-md-6">
                     @include('modules.testimonials')

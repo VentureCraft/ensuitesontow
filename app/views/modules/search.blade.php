@@ -7,7 +7,7 @@
         <div class="input-group">
             {{ Form::input('number', 'postcode', null, array('class' => 'form-control')) }}
             <span class="input-group-btn">
-                <button class="btn btn-default" type="submit">Search!</button>
+                <button class="btn btn-default" type="submit">Search</button>
             </span>
         </div>
         {{ Form::close() }}

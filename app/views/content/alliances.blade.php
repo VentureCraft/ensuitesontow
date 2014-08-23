@@ -1,13 +1,18 @@
 @extends('templates.default')
 
 @section('header-bar')
-@include('templates.partials.header-bar', array('heading' => 'Alliances'))
+@include('templates.partials.header-bar', array('heading' => 'Alliance Partners'))
 @stop
 
 @section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-9">
+
+            <h2>Need some extra help with your event or renovation?</h2>
+            <p class="lead">Check out the companies below we <strong>support and trust</strong>.</p>
+
+            @include('modules.hr')
 
             <div class="tabs tabs-vertical tabs-left">
                 <ul class="nav nav-tabs col-sm-3">
@@ -103,8 +108,10 @@
 
         </div>
         <div class="col-md-3">
-            @include('modules.franchise-enquiries')
             @include('modules.search')
+            <hr/>
+            @include('modules.franchise-enquiries')
+            <hr/>
             @include('modules.accolades')
         </div>
     </div>

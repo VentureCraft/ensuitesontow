@@ -13,8 +13,10 @@
                         <i class="icon icon-angle-down"></i>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="about-us.html">Features</a></li>
-                        <li><a href="about-us-basic.html">Gallery</a></li>
+                        <li class="{{ activeState('features') }}">
+                            <a href="{{ route('features') }}">Features</a>
+                        </li>
+                        <li><a href="#">Gallery</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -40,14 +42,14 @@
                 <li class="{{ activeState('about-us') }}">
                     <a href="{{ route('about-us') }}">About Us</a>
                 </li>
-                <li>
-                    <a href="#">Franchise</a>
+                <li class="{{ activeState('franchise') }}">
+                    <a href="{{ route('franchise') }}">Franchise</a>
                 </li>
                 <li class="{{ activeState('alliances') }}">
                     <a href="{{ route('alliances') }}">Alliances</a>
                 </li>
-                <li>
-                    <a href="#">Testimonials</a>
+                <li class="{{ activeState('testimonials') }}">
+                    <a href="{{ route('testimonials') }}">Testimonials</a>
                 </li>
                 <li class="{{ activeState('contact') }}">
                     <a href="{{ route('contact') }}">Contact Us</a>

@@ -16,4 +16,19 @@ class ContentController extends BaseController
     {
         return View::make('content.about-us');
     }
+
+    public function franchise()
+    {
+        return View::make('content.franchise');
+    }
+
+    public function features()
+    {
+        return View::make('content.features');
+    }
+
+    public function testimonials()
+    {
+        return View::make('content.testimonials');
+    }
 }
