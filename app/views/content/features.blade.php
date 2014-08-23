@@ -110,10 +110,102 @@
                         </span>
                     </div>
                 </li>
+            </ul>
 
+            <hr style="clear: both">
 
+            <h3>Comfort systems</h3>
+
+            <ul class="team-list">
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/water-safety.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Water Safety</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>All of our bathrooms are fitted with "Tempering" valves to ensuring water will not be delivered above 50ºC eliminating the possibility of scalding. Both the hot and cold water lines are fitted with pressure relief valves and all fixtures are WELS rated.</p>
+                        </span>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/room-heating.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Room Heating</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>Our bathrooms come standard with high efficiency, thermostatically controlled room heaters providing year round temperature comfort day or night!</p>
+                        </span>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/water-treatment.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Water Treatment</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>An onboard macerator pump automatically removes the waste and delivers it to the sewer as required. This eliminates odours and the need for chemicals. (Holding tanks can be provided in remote situations).</p>
+                        </span>
+                    </div>
+                </li>
 
             </ul>
+
+            <ul class="team-list">
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/electrical-safety.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Electical Safety</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>Your safety is paramount and as required all bathrooms feature RCB "Safety devices" and double poled power outlets.</p>
+                        </span>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/room-to-move.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Room To Move</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>Our bathrooms are very spacious, allowing plenty of room for family use. When not in use, the shower area provides additional floor space and the no slip floor surface along with the wide entry step and entry assist handrail ensures safety for all.</p>
+                        </span>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="team-item thumbnail">
+                        <a href="#" class="thumb-info team">
+                            <img src="{{ asset('assets/img/features/hot-water-system.jpg') }}">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Hot Water System</span>
+                            </span>
+                        </a>
+                        <span class="thumb-info-caption">
+                            <p>A fast recovery 50 litre storage electric hot water service takes care of all you hot water needs allowing warm comfortable showers.</p>
+                        </span>
+                    </div>
+                </li>
+
+            </ul>
+
+            <hr style="clear: both">
+
+            <h3>Environmental</h3>
+            <p>The quality features of our bathrooms ensure minimal environmental impact. There’s no need for chemicals, there are no emissions and the option to divert shower water to gardens and lawns provides additional water saving benefits!</p>
 
         </div>
         <div class="col-md-3">

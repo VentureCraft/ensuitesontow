@@ -19,6 +19,7 @@ Route::get('benefits', array('as' => 'benefits', 'uses' => 'ContentController@be
 Route::get('about-us', array('as' => 'about-us', 'uses' => 'ContentController@aboutUs'));
 Route::get('alliances-partners', array('as' => 'alliances', 'uses' => 'ContentController@alliances'));
 Route::get('features', array('as' => 'features', 'uses' => 'ContentController@features'));
+Route::get('gallery', array('as' => 'gallery', 'uses' => 'ContentController@gallery'));
 Route::get('hire-franchise-opportunity', array('as' => 'franchise', 'uses' => 'ContentController@franchise'));
 Route::get('testimonials', array('as' => 'testimonials', 'uses' => 'ContentController@testimonials'));
 Route::get('privacy-policy', array('as' => 'privacy', 'uses' => 'ContentController@privacy'));

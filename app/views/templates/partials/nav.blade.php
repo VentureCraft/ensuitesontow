@@ -7,7 +7,7 @@
                         Home
                     </a>
                 </li>
-                <li class="dropdown">
+                <li class="dropdown {{ activeState(['features']) }}">
                     <a class="dropdown-toggle" href="#">
                         Ensuites
                         <i class="icon icon-angle-down"></i>
@@ -16,7 +16,9 @@
                         <li class="{{ activeState('features') }}">
                             <a href="{{ route('features') }}">Features</a>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li class="{{ activeState('gallery') }}">
+                            <a href="{{ route('gallery') }}">Gallery</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
