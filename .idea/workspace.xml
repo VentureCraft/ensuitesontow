@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="alliances.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/content/alliances.blade.php">
+      <file leaf-file-name="footer.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/templates/partials/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="14" selection-start="6845" selection-end="6845" vertical-scroll-proportion="0.7592357" vertical-offset="2455" max-vertical-offset="3294">
+            <state line="26" column="84" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.44968152" vertical-offset="349" max-vertical-offset="1566">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,6 @@
         <option value="$PROJECT_DIR$/app/views/content/benefits.blade.php" />
         <option value="$PROJECT_DIR$/app/views/templates/partials/header-bar.blade.php" />
         <option value="$PROJECT_DIR$/app/views/templates/default.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/templates/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/app/config/ensuites.php" />
         <option value="$PROJECT_DIR$/app/views/content/privacy.blade.php" />
         <option value="$PROJECT_DIR$/app/views/content/gallery.blade.php" />
@@ -88,6 +87,7 @@
         <option value="$PROJECT_DIR$/app/views/templates/partials/nav.blade.php" />
         <option value="$PROJECT_DIR$/app/views/modules/accolades.blade.php" />
         <option value="$PROJECT_DIR$/app/views/content/alliances.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/templates/partials/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -567,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/templates/partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.62165606" vertical-offset="673" max-vertical-offset="1566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/content/gallery.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="236" column="0" selection-start="12886" selection-end="12886" vertical-scroll-proportion="0.92885375" vertical-offset="5667" max-vertical-offset="7695">
@@ -791,7 +784,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/content/alliances.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="14" selection-start="6845" selection-end="6845" vertical-scroll-proportion="0.7592357" vertical-offset="2455" max-vertical-offset="3294">
+        <state line="102" column="25" selection-start="6501" selection-end="6501" vertical-scroll-proportion="0.3808917" vertical-offset="2455" max-vertical-offset="3294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="84" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.44968152" vertical-offset="349" max-vertical-offset="1566">
           <folding />
         </state>
       </provider>

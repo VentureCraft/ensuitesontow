@@ -24,7 +24,7 @@
                         <div class="input-group">
                             <input type="number" class="form-control" placeholder="Postcode" name="postcode">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="submit">Go!</button>
+                                <button class="btn btn-default" type="submit">Search</button>
                             </span>
                         </div>
                     {{ Form::close() }}
