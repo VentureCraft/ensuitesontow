@@ -1,4 +1,4 @@
-<div class="awards side">
+<div class="awards side hidden-xs">
 
     <div class="row" style="padding: 0 10px">
         <div class="col-sm-4">
