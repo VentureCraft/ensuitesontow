@@ -16,4 +16,8 @@ Route::get('contact-us', array('as' => 'contact', 'uses' => 'ContactController@i
 
 
 Route::get('benefits', array('as' => 'benefits', 'uses' => 'ContentController@benefits'));
+Route::get('about-us', array('as' => 'about-us', 'uses' => 'ContentController@aboutUs'));
 Route::get('alliances', array('as' => 'alliances', 'uses' => 'ContentController@alliances'));
+
+Route::get('search', array('as' => 'search', 'uses' => 'ContentController@alliances'));
+Route::post('search', array('as' => 'search', 'uses' => 'ContentController@alliances'));

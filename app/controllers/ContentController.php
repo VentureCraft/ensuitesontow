@@ -11,4 +11,9 @@ class ContentController extends BaseController
     {
         return View::make('content.alliances');
     }
+
+    public function aboutUs()
+    {
+        return View::make('content.about-us');
+    }
 }

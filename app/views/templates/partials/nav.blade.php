@@ -37,8 +37,8 @@
                 <li class="{{ activeState('benefits') }}">
                     <a href="{{ route('benefits') }}">Benefits</a>
                 </li>
-                <li>
-                    <a href="#">About Us</a>
+                <li class="{{ activeState('about-us') }}">
+                    <a href="{{ route('about-us') }}">About Us</a>
                 </li>
                 <li>
                     <a href="#">Franchise</a>

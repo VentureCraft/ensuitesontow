@@ -17,17 +17,17 @@
             </div>
             <div class="col-md-4">
                 <div class="supplier_search">
-                    <h4>Find a supplier</h4>
+                    <h4>Find a provider</h4>
                     <p>Enter your postcode below to find your nearest supplier.</p>
 
-                    <form action="#">
+                    {{ Form::open(array('route' => 'search')) }}
                         <div class="input-group">
                             <input type="number" class="form-control" placeholder="Postcode" name="postcode">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="submit">Go!</button>
                             </span>
                         </div>
-                    </form>
+                    {{ Form::close() }}
                 </div>
             </div>
         </div>
