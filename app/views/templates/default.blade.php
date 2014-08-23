@@ -68,7 +68,7 @@
     <header id="header" class="single-menu flat-menu">
         <div class="container">
             <h1 class="logo">
-                <a href="index.html"><img alt="Porto" width="68" height="54" data-sticky-width="50"
+                <a href="{{ route('site.index') }}"><img alt="Porto" width="68" height="54" data-sticky-width="50"
                                           data-sticky-height="40" src="assets/img/logo/header.png"></a>
             </h1>
             <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">

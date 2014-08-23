@@ -41,7 +41,7 @@
                 <div class="col-md-4">
                     <nav id="sub-menu">
                         <ul>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="{{ route('privacy') }}">Privacy Policy</a></li>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>

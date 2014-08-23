@@ -27,6 +27,11 @@ class ContentController extends BaseController
         return View::make('content.features');
     }
 
+    public function privacy()
+    {
+        return View::make('content.privacy');
+    }
+
     public function testimonials()
     {
         return View::make('content.testimonials');

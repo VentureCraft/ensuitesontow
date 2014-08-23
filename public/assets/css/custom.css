@@ -26,6 +26,7 @@
     padding: 5px;
 }
 .awards img {
+    border-radius: 7px;
     border: 1px solid #ccc;
     max-width: 100%;
 }
