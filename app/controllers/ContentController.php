@@ -6,4 +6,9 @@ class ContentController extends BaseController
     {
         return View::make('content.benefits');
     }
+
+    public function alliances()
+    {
+        return View::make('content.alliances');
+    }
 }

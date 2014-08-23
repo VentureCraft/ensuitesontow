@@ -16,3 +16,4 @@ Route::get('contact-us', array('as' => 'contact', 'uses' => 'ContactController@i
 
 
 Route::get('benefits', array('as' => 'benefits', 'uses' => 'ContentController@benefits'));
+Route::get('alliances', array('as' => 'alliances', 'uses' => 'ContentController@alliances'));

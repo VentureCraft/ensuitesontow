@@ -2,7 +2,7 @@
     <div class="container">
         <nav class="nav-main mega-menu">
             <ul class="nav nav-pills nav-main" id="mainMenu">
-                <li class="active">
+                <li class="{{ activeState('site.index') }}">
                     <a href="{{ route('site.index') }}">
                         Home
                     </a>
@@ -34,7 +34,7 @@
                 <li>
                     <a href="#">Hire</a>
                 </li>
-                <li>
+                <li class="{{ activeState('benefits') }}">
                     <a href="{{ route('benefits') }}">Benefits</a>
                 </li>
                 <li>
@@ -43,13 +43,13 @@
                 <li>
                     <a href="#">Franchise</a>
                 </li>
-                <li>
-                    <a href="#">Alliances</a>
+                <li class="{{ activeState('alliances') }}">
+                    <a href="{{ route('alliances') }}">Alliances</a>
                 </li>
                 <li>
                     <a href="#">Testimonials</a>
                 </li>
-                <li>
+                <li class="{{ activeState('contact') }}">
                     <a href="{{ route('contact') }}">Contact Us</a>
                 </li>
             </ul>

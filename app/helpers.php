@@ -10,3 +10,26 @@ function body_classes()
     }
     return implode(' ', array_merge(Request::segments(), $extras));
 }
+
+
+function activeState($routes, $active = 'active')
+{
+
+    foreach((array)$routes as $route)
+    {
+        if(Route::currentRouteNamed($route))
+        {
+            return $active;
+        }
+        else
+        {
+            if(call_user_func_array('Request::is', (array)$route))
+            {
+                return $active;
+            }
+        }
+    }
+
+    return '';
+
+}

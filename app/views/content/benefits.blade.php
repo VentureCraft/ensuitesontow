@@ -30,6 +30,7 @@
         </div>
         <div class="col-md-3">
             @include('modules.franchise-enquiries')
+            @include('modules.search')
             @include('modules.accolades')
         </div>
     </div>
