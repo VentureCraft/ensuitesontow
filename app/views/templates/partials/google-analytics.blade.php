@@ -1,8 +1,7 @@
-<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 <script type="text/javascript">
 
     var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-12345678-1']);
+    _gaq.push(['_setAccount', 'UA-1226651-4']);
     _gaq.push(['_trackPageview']);
 
     (function() {
@@ -12,4 +11,3 @@
     })();
 
 </script>
- -->

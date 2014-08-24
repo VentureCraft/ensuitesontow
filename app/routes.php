@@ -7,7 +7,7 @@ Route::get('contact-us', array('as' => 'contact', 'uses' => 'ContactController@i
  * Content pages
  */
 Route::get('about-us', array('as' => 'about-us', 'uses' => 'ContentController@aboutUs'));
-Route::get('alliances-partners', array('as' => 'alliances', 'uses' => 'ContentController@alliances'));
+Route::get('alliance-partners', array('as' => 'alliances', 'uses' => 'ContentController@alliances'));
 Route::get('benefits', array('as' => 'benefits', 'uses' => 'ContentController@benefits'));
 Route::get('builders', array('as' => 'builders', 'uses' => 'ContentController@builders'));
 Route::get('events', array('as' => 'events', 'uses' => 'ContentController@events'));
