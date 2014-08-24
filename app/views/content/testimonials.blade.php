@@ -18,7 +18,7 @@
             @include('modules.hr')
 
             @foreach($categories as $category)
-                <h4>{{ $category->name }}</h4>
+                <h3>{{ $category->name }}</h3>
                 @foreach($category->testimonials as $testimonial)
                     @include('modules.testimonial', array('testimonial' => $testimonial))
                     <hr />
