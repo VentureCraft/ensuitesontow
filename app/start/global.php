@@ -72,7 +72,7 @@ App::error(function (Exception $exception) {
         return Response::view('errors.404', array(), 404);
     }
     if(App::environment('production')) {
-        return Response::view('errors.500', array('exception' => $exception), 500);
+//        return Response::view('errors.500', array('exception' => $exception), 500);
     }
 });
 
