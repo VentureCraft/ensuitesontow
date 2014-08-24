@@ -22,5 +22,6 @@ Route::get('toilets', array('as' => 'toilets', 'uses' => 'ContentController@toil
 Route::get('testimonials', array('as' => 'testimonials', 'uses' => 'ContentController@testimonials'));
 Route::get('privacy-policy', array('as' => 'privacy', 'uses' => 'ContentController@privacy'));
 
-Route::get('search', array('as' => 'search', 'uses' => 'ContentController@alliances'));
-Route::post('search', array('as' => 'search', 'uses' => 'ContentController@alliances'));
+Route::get('portable-bathroom-hire', array('as' => 'search', 'uses' => 'FranchiseeController@index'));
+
+//Route::post('search', array('as' => 'search', 'uses' => 'ContentController@alliances'));

@@ -35,8 +35,8 @@
                         <li class="{{ activeState('weddings') }}"><a href="{{ route('weddings') }}">Outdoor Weddings</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="#">Hire</a>
+                <li class="{{ activeState('search') }}">
+                    <a href="{{ route('search') }}">Hire</a>
                 </li>
                 <li class="{{ activeState('benefits') }}">
                     <a href="{{ route('benefits') }}">Benefits</a>
