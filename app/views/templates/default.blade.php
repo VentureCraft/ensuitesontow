@@ -9,9 +9,9 @@
 
     <!-- Basic -->
     <meta charset="utf-8">
-    <title>@yield('title', 'Ensuites On Tow')</title>
-    <meta name="keywords" content="ensuites, portable toilet, luxury portable bathroom, portable bathroom"/>
-    <meta name="description" content="@yield('title', 'Ensuites On Tow')">
+    <title>@yield('title') - Ensuites On Tow</title>
+    <meta name="keywords" content="self employeed, sel employed, self employe, self empoyed, slef employed, sef employed,sefl employed, self emlpoyed, self employoed, selfemployed, small buisness, smallbusinesss, smallbusiness, small busienss, small bisiness, small businness, self empolyed,small busines, small businss, small usiness, small bsuiness, snall business, small bsiness,small busiess, franchisee, francise, frnchise, franchies, franchis, francise in, ranchise,frachise, a francise" />
+    <meta name="description" content="@yield('description', 'Ensuites On Tow franchises for sale, work your own flexible hours! The best franchise and business opportunity. Enquire Today') "/>
     <meta name="author" content="Chris Duell - VentureCraft">
 
     <!-- Mobile Metas -->
