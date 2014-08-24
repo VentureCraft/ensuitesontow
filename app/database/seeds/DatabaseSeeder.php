@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
         Eloquent::unguard();
 
          $this->call('TestimonialsSeeder');
+         $this->call('FranchiseeSeeder');
     }
 
 }

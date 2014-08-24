@@ -15,6 +15,7 @@ class CreateFranchiseeTable extends Migration
     {
         Schema::create('franchisees', function(Blueprint $table) {
             $table->increments('id');
+            $table->integer('old_id')->nullable();
             $table->string('name');
             $table->string('location');
             $table->string('email')->nullable();
@@ -24,6 +25,7 @@ class CreateFranchiseeTable extends Migration
             $table->string('image')->nullable();
             $table->text('postcodes')->nullable();
             $table->text('about')->nullable();
+            $table->boolean('area_available')->default(false);
         });
     }
 

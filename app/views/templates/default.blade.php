@@ -81,6 +81,11 @@
     <div role="main" class="main">
 
         @yield('header-bar')
+
+        <div class="container text-center">
+            {{ Notification::showAll() }}
+        </div>
+
         @yield('content')
 
     </div>

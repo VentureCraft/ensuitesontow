@@ -16,7 +16,7 @@
             <h4>Here are some useful links</h4>
             <ul class="nav nav-list primary">
                 <li><a href="{{ route('site.index') }}">Home</a></li>
-                <li><a href="{{ route('search') }}">Find a provider</a></li>
+                <li><a href="{{ route('franchisee.hire') }}">Find a provider</a></li>
                 <li><a href="{{ route('about-us') }}">About Us</a></li>
                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>

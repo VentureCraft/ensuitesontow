@@ -26,5 +26,5 @@ Route::get('privacy-policy', array('as' => 'privacy', 'uses' => 'ContentControll
  * Franchisee search
  */
 Route::get('portable-bathroom-hire', array('as' => 'franchisee.hire', 'uses' => 'FranchiseeController@index'));
-Route::get('franchisee/{slug}/{id}', array('as' => 'franchisee.profile', 'uses' => 'FranchiseeController@profile'));
+Route::get('franchisee/{location}/{name}/{id}', array('as' => 'franchisee.profile', 'uses' => 'FranchiseeController@profile'));
 Route::post('search', array('as' => 'franchisee.search', 'uses' => 'FranchiseeController@search'));
