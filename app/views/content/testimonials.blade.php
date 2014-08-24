@@ -15,10 +15,15 @@
             <h2>Don't just take <strong>our</strong> word for it</h2>
             <p class="lead">Hear what some of our our happy clients have said</p>
 
-            @for($i=1;$i<=10;$i++)
-                @include('modules.hr')
-                @include('modules.testimonial')
-            @endfor
+            @include('modules.hr')
+
+            @foreach($categories as $category)
+                <h4>{{ $category->name }}</h4>
+                @foreach($category->testimonials as $testimonial)
+                    @include('modules.testimonial', array('testimonial' => $testimonial))
+                    <hr />
+                @endforeach
+            @endforeach
 
         </div>
         <div class="col-md-3">

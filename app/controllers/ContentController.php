@@ -69,7 +69,10 @@ class ContentController extends BaseController
 
     public function testimonials()
     {
-        return View::make('content.testimonials');
+        $categories = Testimonialcategory::all();
+
+        return View::make('content.testimonials')
+            ->withCategories($categories);
     }
 
     public function toilets()
