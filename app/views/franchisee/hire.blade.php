@@ -13,7 +13,7 @@
 
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-7">
-            {{ Form::open(array('route' => 'search')) }}
+            {{ Form::open(array('route' => 'franchisee.search')) }}
             <div class="input-group">
                 {{ Form::input('number', 'postcode', null, array('class' => 'form-control')) }}
             <span class="input-group-btn">

@@ -3,7 +3,7 @@
         <h4>Find a supplier</h4>
 
         <p>Enter your postcode below to find your nearest provider.</p>
-        {{ Form::open(array('route' => 'search')) }}
+        {{ Form::open(array('route' => 'franchisee.search')) }}
         <div class="input-group">
             {{ Form::input('number', 'postcode', null, array('class' => 'form-control')) }}
             <span class="input-group-btn">

@@ -20,7 +20,7 @@
                     <h4>Find a provider</h4>
                     <p>Enter your postcode below to find your nearest supplier.</p>
 
-                    {{ Form::open(array('route' => 'search')) }}
+                    {{ Form::open(array('route' => 'franchisee.search')) }}
                         <div class="input-group">
                             <input type="number" class="form-control" placeholder="Postcode" name="postcode">
                             <span class="input-group-btn">
