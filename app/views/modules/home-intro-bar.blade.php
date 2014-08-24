@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-4">
                 <div class="get-started">
-                    <a href="#" class="btn btn-lg btn-primary">Find out more!</a>
+                    <a href="{{ route('franchise') }}" class="btn btn-lg btn-primary">Find out more!</a>
                 </div>
             </div>
         </div>
